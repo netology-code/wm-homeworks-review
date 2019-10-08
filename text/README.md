@@ -63,20 +63,20 @@ ul.works-list ul {
 ## Задача №5
 
 **Описание задания:**
->* Для фона цитаты установите картинку, которая находится по адресу: [https://netology-university.bitbucket.io/wm/resourses/images/wm-2-2-bg.jpg](https://netology-university.bitbucket.io/wm/resourses/images/wm-2-2-bg.jpg)
+>* Для фона цитаты установите картинку, которая находится по адресу: [https://netology-code.github.io/wm-homeworks/text/images/wm-2-2-bg.jpg](https://netology-code.github.io/wm-homeworks/text/images/wm-2-2-bg.jpg)
 >* Цвет текста цитаты установить в #494429
 >* Добиться курсивного начертания и поменять семейство шрифта на serif (с засечками).
 
 Используем селектор элемента `blockquote` и свойство `background-image`. Обратите внимание на растановку пробелов, скобок и кавычек:
 ```css
 blockquote {
-  background-image: url("https://netology-university.bitbucket.io/wm/resourses/images/wm-2-2-bg.jpg");
+  background-image: url("https://netology-code.github.io/wm-homeworks/text/images/wm-2-2-bg.jpg");
 }
 ```
 Используем свойство color: `#494429`, чтобы изменить цвет, `font-style: italic` для курсивного начертания и уже знакомое свойство `font-family: serif` для смены шрифта на шрифт с засечками. В итоге правило для цитат выглядит так:
 ```css
 blockquote {
-  background-image: url("https://netology-university.bitbucket.io/wm/resourses/images/wm-2-2-bg.jpg");
+  background-image: url("https://netology-code.github.io/wm-homeworks/text/images/wm-2-2-bg.jpg");
   color: #494429;
   font-style: italic;
   font-family: serif;
