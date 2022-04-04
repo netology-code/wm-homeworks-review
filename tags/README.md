@@ -24,7 +24,7 @@
 ```
 
 **Описание задания:**
->Во втором абзаце в предложении *Недавно, например, нейросеть научилась писать песни в стиле Егора Летова* поставить ссылку на слове научилась на страницу [https://meduza.io/shapito/2016/06/28/neyronnaya-oborona-robot-napisal-teksty-pesen-pod-egora-letova](https://meduza.io/shapito/2016/06/28/neyronnaya-oborona-robot-napisal-teksty-pesen-pod-egora-letova)
+>Во втором абзаце в предложении *Недавно, например, нейросеть научилась писать песни в стиле Егора Летова* поставить ссылку на слове научилась на страницу [https://www.sostav.ru/publication/nejroset-yandeksa-napisala-tekst-dlya-muzykalnogo-alboma-22860.html](https://www.sostav.ru/publication/nejroset-yandeksa-napisala-tekst-dlya-muzykalnogo-alboma-22860.html)
 
 Итак, какой тег предназначен для создания гиперссылок?
 ```html
@@ -32,7 +32,7 @@
 ```
 Также вспоминаем, что адрес документа, на который должен произойти переход, указывается в атрибуте `href="URL"`:
 ```html
-<p>Недавно, например, нейросеть <a href="https://meduza.io/shapito/2016/06/28/neyronnaya-oborona-robot-napisal-teksty-pesen-pod-egora-letova">научилась</a> писать песни в стиле Егора Летова. Программа проанализировала корпус текстов «Гражданской обороны», выделила закономерности и на их основе составила собственные произведения. Подробнее о нейросетях можно почитать в наших карточках.</p>
+<p>Недавно, например, нейросеть <a href="https://www.sostav.ru/publication/nejroset-yandeksa-napisala-tekst-dlya-muzykalnogo-alboma-22860.html">научилась</a> писать песни в стиле Егора Летова. Программа проанализировала корпус текстов «Гражданской обороны», выделила закономерности и на их основе составила собственные произведения. Подробнее о нейросетях можно почитать в наших карточках.</p>
 ```
 ## Задача №2
 
